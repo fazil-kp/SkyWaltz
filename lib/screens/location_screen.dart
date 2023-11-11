@@ -89,7 +89,7 @@ class _LocationScreenState extends State<LocationScreen> {
                       print('hi $typedName');
                       if (typedName != null) {
                         var weatherData =
-                            await weatherModel.getCityWeather(typedName);
+                        await weatherModel.getCityWeather(typedName);
                         updateUI(weatherData);
                       }
                     },

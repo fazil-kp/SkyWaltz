@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
 import '../utilities/constants.dart';
-
 
 class CityScreen extends StatefulWidget {
   @override
@@ -10,6 +8,7 @@ class CityScreen extends StatefulWidget {
 
 class _CityScreenState extends State<CityScreen> {
   late String cityName;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
